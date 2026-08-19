@@ -96,6 +96,18 @@
       "domains": ["mongodb.com"]
     },
     {
+      "name": "market-glass",
+      "description": "Market Glass hosted MCP for live quotes, fundamentals, portfolios, watchlists, and investment research. Connect with a Market Glass API key from Settings → MCP.",
+      "category": "finance",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/market-glass"
+      },
+      "homepage": "https://market-glass.com",
+      "keywords": ["market-glass", "mcpfinance", "finance", "markets", "portfolio", "quotes"],
+      "domains": ["market-glass.com", "mcpfinance.io"]
+    },
+    {
       "name": "mongodb-atlas",
       "description": "Official plugin for MongoDB Atlas (Managed MCP Server + Skills). Sign in with your Atlas account to explore data, manage collections, optimize queries, generate reliable code with MongoDB best practices, and manage Atlas resources such as clusters, projects, database users, and network access.",
       "category": "database",

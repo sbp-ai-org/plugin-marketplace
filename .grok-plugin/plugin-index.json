@@ -327,6 +327,23 @@
         ]
       }
     },
+    "market-glass": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "market-glass",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "market-glass",
+            "description": "Use the Market Glass hosted MCP (mcpfinance.io/mcp) for live quotes, fundamentals, portfolios, watchlists, and investment research. Trigger…"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "b4ea8150a020b9babaddc6c271c6dc177c06a83f",
       "version": "1.2.0",

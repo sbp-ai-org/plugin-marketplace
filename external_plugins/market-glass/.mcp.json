@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "market-glass": {
+      "type": "http",
+      "url": "https://mcpfinance.io/mcp",
+      "headers": {
+        "Authorization": "Bearer ${MARKET_GLASS_API_KEY}"
+      },
+      "note": "Hosted Market Glass MCP (Streamable HTTP). Create an API key at https://market-glass.com/settings/mcp and set MARKET_GLASS_API_KEY. User-data tools require a Personal key; market-data tools also accept Organization keys."
+    }
+  }
+}

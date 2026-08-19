@@ -1,0 +1,21 @@
+{
+  "name": "market-glass",
+  "version": "1.0.0",
+  "description": "Market Glass hosted MCP for live quotes, fundamentals, portfolios, watchlists, and investment research.",
+  "author": {
+    "name": "Something Better Productions, LLC",
+    "email": "admin@sbp-ai.com",
+    "url": "https://www.sbp-ai.com"
+  },
+  "homepage": "https://market-glass.com",
+  "repository": "https://github.com/Savagecode100/plugin-marketplace-xai",
+  "license": "MIT",
+  "keywords": [
+    "market-glass",
+    "mcpfinance",
+    "finance",
+    "markets",
+    "portfolio",
+    "mcp"
+  ]
+}
