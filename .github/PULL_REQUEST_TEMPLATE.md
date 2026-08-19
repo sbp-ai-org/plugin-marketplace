@@ -19,18 +19,18 @@ Run these locally before opening the PR — they're exactly what CI checks:
 
 <!-- Confirm you can distribute this. Sourcing from your official org speeds up review. -->
 
-- [ ] I own this plugin or have the right to distribute it.
-- [ ] The `source` repo is published under our official org (or I've explained why not below).
+- [X] I own this plugin or have the right to distribute it.
+- [X] The `source` repo is published under our official org (or I've explained why not below).
 
 ## Checklist
 
-- [ ] Added/updated exactly one entry in `.grok-plugin/marketplace.json` (valid JSON, kebab-case `name`).
-- [ ] Remote source pins a full 40-char lowercase commit `sha`, and that commit is public + reachable.
-- [ ] Regenerated `.grok-plugin/plugin-index.json` (`python3 scripts/generate-plugin-index.py`).
-- [ ] `python3 scripts/validate-catalog.py` passes locally.
-- [ ] `python3 scripts/generate-plugin-index.py --check` passes locally.
-- [ ] `homepage` + clear `description` set; local plugins include `README.md` + `.grok-plugin/plugin.json`.
-- [ ] License is stated.
+- [X] Added/updated exactly one entry in `.grok-plugin/marketplace.json` (valid JSON, kebab-case `name`).
+- [X] Remote source pins a full 40-char lowercase commit `sha`, and that commit is public + reachable.
+- [X] Regenerated `.grok-plugin/plugin-index.json` (`python3 scripts/generate-plugin-index.py`).
+- [X] `python3 scripts/validate-catalog.py` passes locally.
+- [X] `python3 scripts/generate-plugin-index.py --check` passes locally.
+- [X] `homepage` + clear `description` set; local plugins include `README.md` + `.grok-plugin/plugin.json`.
+- [X] License is stated.
 
 ## Security
 
