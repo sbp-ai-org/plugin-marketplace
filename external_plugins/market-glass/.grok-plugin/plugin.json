@@ -1,7 +1,7 @@
 {
   "name": "market-glass",
   "version": "1.0.0",
-  "description": "Market Glass hosted MCP for live quotes, fundamentals, portfolios, watchlists, and investment research.",
+  "description": "Market Glass hosted MCP for live quotes, fundamentals, portfolios, watchlists, and the MG Investment Committee. OAuth 2.0 + DCR — no API key.",
   "author": {
     "name": "Something Better Productions, LLC",
     "email": "admin@sbp-ai.com",

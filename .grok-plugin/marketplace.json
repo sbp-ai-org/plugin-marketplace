@@ -97,7 +97,7 @@
     },
     {
       "name": "market-glass",
-      "description": "Market Glass hosted MCP for live quotes, fundamentals, portfolios, watchlists, and investment research. Connect with a Market Glass API key from Settings → MCP.",
+      "description": "Market Glass hosted MCP for live quotes, fundamentals, portfolios, watchlists, and the MG Investment Committee. Grok discovers OAuth automatically — sign in with your Market Glass account (no API key).",
       "category": "finance",
       "source": {
         "type": "local",
