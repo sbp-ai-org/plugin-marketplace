@@ -41,13 +41,13 @@ For the catalog schema, source types, and SHA pinning mechanics, read the [READM
 
 ## Requirements checklist
 
-- [ ] One entry added to `.grok-plugin/marketplace.json`, valid JSON, `name` in kebab-case and unique.
-- [ ] Remote sources pin a full 40-char lowercase commit `sha`; the commit is public and reachable.
-- [ ] `.grok-plugin/plugin-index.json` regenerated and committed (CI fails if stale).
-- [ ] A `homepage` and a clear `description`; brand-scoped `keywords`/`domains` (not generic terms — they power the plugin CTA) and a `category` where it helps discovery.
-- [ ] Local plugins include a `README.md` and a valid `.grok-plugin/plugin.json` manifest (`.claude-plugin/plugin.json` is also accepted for Claude-ecosystem plugins).
-- [ ] The plugin is licensed and the license is stated.
-- [ ] You've read [Security expectations](#security-expectations) and your plugin complies.
+- [x] One entry added to `.grok-plugin/marketplace.json`, valid JSON, `name` in kebab-case and unique.
+- [x] Remote sources pin a full 40-char lowercase commit `sha`; the commit is public and reachable.
+- [x] `.grok-plugin/plugin-index.json` regenerated and committed (CI fails if stale).
+- [x] A `homepage` and a clear `description`; brand-scoped `keywords`/`domains` (not generic terms — they power the plugin CTA) and a `category` where it helps discovery.
+- [x] Local plugins include a `README.md` and a valid `.grok-plugin/plugin.json` manifest (`.claude-plugin/plugin.json` is also accepted for Claude-ecosystem plugins).
+- [x] The plugin is licensed and the license is stated.
+- [] You've read [Security expectations](#security-expectations) and your plugin complies.
 
 ## Tips for a clean submission
 
