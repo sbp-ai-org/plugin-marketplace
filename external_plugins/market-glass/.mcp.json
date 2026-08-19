@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "market-glass": {
+      "type": "http",
+      "url": "https://mcpfinance.io/mcp",
+      "note": "Hosted Market Glass MCP (Streamable HTTP). Grok discovers OAuth 2.0 + dynamic client registration automatically from RFC 9728 metadata at https://mcpfinance.io/mcp/.well-known/oauth-protected-resource. There is no API key, client ID, or client secret to configure. The user signs in to their Market Glass account; every tool call runs as that user and bills their MGT balance."
+    }
+  }
+}
